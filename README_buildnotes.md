@@ -2,7 +2,11 @@
 
 ## Installation on Ubuntu 20.04
 
-Install nvm and node 10.24 by running
+Install nvm 
+
+    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+Install node 10.24 by running
 
     $ nvm install lts/dubnium
     $ nvm use lts/dubnium
