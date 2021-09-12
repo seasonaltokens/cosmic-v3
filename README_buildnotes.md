@@ -32,10 +32,6 @@ Navigate to the source directory and add the local node modules to the path:
 
     $ export PATH=`pwd`/node_modules/.bin:$PATH
 
-Install pkg by running 
-
-    $ yarn add pkg
-
 Package into a standalone executable for linux by running:
 
     $ pkg -o 0xbitcoin-gpuminer -t node10-linux-x64 index.js
