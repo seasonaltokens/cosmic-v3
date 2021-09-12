@@ -12,9 +12,9 @@ Install node 10.24 by running
     $ nvm use lts/dubnium
 
 
-Install yarn and npm-gyp
+Install yarn and node-gyp
 
-    $ npm install -g yarn npm-gyp
+    $ npm install -g yarn node-gyp
 
 Run yarn from within the top level of the source directory to install dependencies.
 
