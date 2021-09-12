@@ -2,6 +2,10 @@
 
 ## Installation on Ubuntu 20.04
 
+Install nvidia-cuda-toolkit as root
+    
+    # apt install nvidia-cuda-toolkit
+
 Install nvm 
 
     $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
