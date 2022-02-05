@@ -13,7 +13,7 @@
   "bin": "index.js",
   "scripts": {
     "build": "node-gyp rebuild",
-    "package": "pkg -o cosmic-v3.4t -t host index.js",
+    "package": "./node_modules/.bin/pkg -o cosmic-v3.4t -t host index.js",
     "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "",
