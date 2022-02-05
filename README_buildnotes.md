@@ -20,13 +20,9 @@ On Windows 10, it is recommended to install Node.js directly from
 
     https://nodejs.org/dist/latest-dubnium/node-v10.24.1-x64.msi
 
-Install yarn and node-gyp from the shell or command prompt
+Install package dependencies from with the project directory by running
 
-    $ npm install -g yarn node-gyp
-
-Run yarn from within the top level of the source directory to install dependencies.
-
-    $ yarn 
+    $ npm install
 
 Confirm that the app works by running and listing all accounts:
 
@@ -37,15 +33,12 @@ Confirm that the app works by running and listing all accounts:
 
 ## Bundling a standalone executable 
 
-Navigate to the source directory and add the local node modules to the path:
+Package into a standalone executable by running:
 
-    $ export PATH=`pwd`/node_modules/.bin:$PATH
+    $ npm run package
 
-Package into a standalone executable for linux by running:
+Test the executable by moving it to another location and running
 
-    $ pkg -o 0xbitcoin-gpuminer -t node10-linux-x64 index.js
+    $ ./cosmic-v3.4t
 
-Or for Windows 10 by running:
-
-    > pkg -o 0xbitcoin-gpuminer -t node10-windows-x64 index.js
-
+from the location you've moved it to.
